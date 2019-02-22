@@ -11,7 +11,7 @@ The model was trained for 10 epochs. The total number of tokens was *208,006,138
 
 | Cross-entropy | Perplexity | Accuracy |
 | -------------:|-----------:|---------:|
-|          3.09 |      21.89 |     0.43 |
+|          3.09 |      21.98 |     0.43 |
  
 ## References
 
