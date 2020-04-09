@@ -5,6 +5,14 @@ such as text classification with ULMFit [4].
 
 You can download weights for the model here: https://drive.google.com/open?id=1_d4XCMMWdIZt57JJyH34bzY2gRSB7KTE
 
+**NOTE**
+This model was trained a while back with an old version of fastai. If you want to use it with a newer (v1.5x+) version, run these lines before creating a learner:
+
+```
+config = awd_lstm_lm_config.copy()
+config['n_hid'] = 1150
+```
+
 ## Metrics
 
 The model was trained for 10 epochs. The total number of tokens was *208,006,138*, of which 10% were used for validation. Validation results are:
